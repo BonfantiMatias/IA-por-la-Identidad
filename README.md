@@ -160,6 +160,7 @@ En este entorno grafico podemos probar la segmentacion y las detecciones, sin re
 ### Google Colab
 
 [Video Colab](https://drive.google.com/file/d/1frmwc5Vbu_JlPhe0d5pvgMaRu2gwI7gV/view?usp=sharing)
+
 En este entorno podemos realizar pruebas con gpu. 
 
 [Colab](https://colab.research.google.com/drive/1yX7k2YXZ8ugW0bDXkFKs5xxDUK4rUs6C?usp=sharing)
