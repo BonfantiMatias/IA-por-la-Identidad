@@ -8,6 +8,13 @@ Estas imágenes deben ser procesadas individualmente para generar un archivo JSO
 
 Este proyecto ofrece una solución en Python para extraer información de notas y diarios digitalizados. La solución utiliza una segmentación en YOLO para separar las notas y noticias y, posteriormente, analizarlas individualmente mediante una detección en YOLO. La detección en YOLO se encarga de detectar las diferentes partes de la nota, como la volanta, el título, la bajada, el cuerpo y el epígrafe. La salida de esta detección se presentan como bounding box que se procesan con un OCR para generar un archivo JSON. En resumen, la solución en Python utiliza técnicas de segmentación y detección en YOLO para extraer información de notas y diarios digitalizados de manera eficiente.
 
+# Equipo <a name="equipo"></a>
+|Nombre          | Correo                     | GitHub                                          | Linkedin|
+|----------------|----------------------------|-------------------------------------------------|---------|
+|Matias Bonfanti|matiasbonfanti87@gmail.com   |[BonfantiMatias](https://github.com/gusofficial)    |[matiasbonfanti](https://www.linkedin.com/in/matiasbonfanti/)|
+|Matias Naranjo Harper   |matiasnaranjo_14@hotmail.com|[Matias-Harper](https://github.com/Matias-Harper)|[matias-naranjo-harper](https://www.linkedin.com/in/matias-naranjo-harper/)|
+|Joel Stanich   |stanichjoel@gmail.com|[joelstanich](https://github.com/joelstanich)|[joelstanich](https://www.linkedin.com/in/joelstanich/)|
+
 ## Instalación en Windows
 
 [Video Instalcion Windows](https://drive.google.com/file/d/1vS0Ex5zZ-sMXT48S6oynN2BQ6BBfQ6dq/view?usp=sharing)
