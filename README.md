@@ -137,7 +137,7 @@ Si queremos procesar los arhivos de otra carpeta o cambiar la ruta de salida pod
     python3 start.py --entrada carpeta_entrada --salida carpeta_salida
 
 ### Linux (Docker)  
-[Video Instalacion MacOs ](https://drive.google.com/file/d/1nUGjTj8aXxeOL6wctxMU1Pz2fOtU6Hoo/view?usp=sharing)
+[Video Instalacion MacOs ](https://drive.google.com/file/d/1i-5vs2D24F_7rJSq0S-9aFOb5lKJHgJT/view?usp=sharing)
 
 Descargamos los archivos y los descomprimimos. Modificar el archivo ocr.py con la ruta de pytesseract para linux, como se mostro en instalacion para linux.
 El siguiente paso es abri una consola en la carpeta donde se encuentran los archivos descomprimidos y ejecutar el siguiente codigo para generar una imagen de docker con las librerias necesarias para ejecutar el codigo.
@@ -158,6 +158,8 @@ En este entorno grafico podemos probar la segmentacion y las detecciones, sin re
 [Hugginface](https://huggingface.co/spaces/matiasbonfanti/IA_por_la_Identidad)
 
 ### Google Colab
+
+[Video Colab](https://drive.google.com/file/d/1frmwc5Vbu_JlPhe0d5pvgMaRu2gwI7gV/view?usp=sharing)
 En este entorno podemos realizar pruebas con gpu. 
 
 [Colab](https://colab.research.google.com/drive/1yX7k2YXZ8ugW0bDXkFKs5xxDUK4rUs6C?usp=sharing)
