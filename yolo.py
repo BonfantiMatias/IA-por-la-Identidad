@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 def recortar_notas(imagen_path: str) -> int:
-    model = YOLO("seg-l.pt")
+    model = YOLO("final-seg-l.pt")
 
     results = model.predict(source=imagen_path, save=True, save_txt=True, project="diarios", classes=0, conf=0.70) 
 
