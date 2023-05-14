@@ -1,4 +1,4 @@
-# IA por la Identidad
+ IA por la Identidad
 
 El desafío planteado por la la Fundacion Sadosky en colaboración con la Fundación Abuelas de Plaza de Mayo es el de crear un programa que logre interpretar imágenes de diarios, las mismas son recortes, fotos u escaneos de calidades muy diversas.
 Estas imágenes deben ser procesadas individualmente para generar un archivo JSON donde se transcriban su partes por separado (Título, Cuerpo, Bajada, Imagen, Epígrafe, Volanta)
@@ -8,16 +8,17 @@ Estas imágenes deben ser procesadas individualmente para generar un archivo JSO
 
 Este proyecto ofrece una solución en Python para extraer información de notas y diarios digitalizados. La solución utiliza una segmentación en YOLO para separar las notas y noticias y, posteriormente, analizarlas individualmente mediante una detección en YOLO. La detección en YOLO se encarga de detectar las diferentes partes de la nota, como la volanta, el título, la bajada, el cuerpo y el epígrafe. La salida de esta detección se presentan como bounding box que se procesan con un OCR para generar un archivo JSON. En resumen, la solución en Python utiliza técnicas de segmentación y detección en YOLO para extraer información de notas y diarios digitalizados de manera eficiente.
 
-# Equipo <a name="equipo"></a>
+# Three Data Scientist
 |Nombre          | Correo                     | GitHub                                          | Linkedin|
 |----------------|----------------------------|-------------------------------------------------|---------|
-|Matias Bonfanti|matiasbonfanti87@gmail.com   |[BonfantiMatias](https://github.com/gusofficial)    |[matiasbonfanti](https://www.linkedin.com/in/matiasbonfanti/)|
+|Matias Bonfanti|matiasbonfanti87@gmail.com   |[BonfantiMatias](https://github.com/BonfantiMatias)    |[matiasbonfanti](https://www.linkedin.com/in/matiasbonfanti/)|
 |Matias Naranjo Harper   |matiasnaranjo_14@hotmail.com|[Matias-Harper](https://github.com/Matias-Harper)|[matias-naranjo-harper](https://www.linkedin.com/in/matias-naranjo-harper/)|
 |Joel Stanich   |stanichjoel@gmail.com|[joelstanich](https://github.com/joelstanich)|[joelstanich](https://www.linkedin.com/in/joelstanich/)|
 
+
 ## Instalación en Windows
 
-[Video Instalcion Windows](https://drive.google.com/file/d/1vS0Ex5zZ-sMXT48S6oynN2BQ6BBfQ6dq/view?usp=sharing)
+[Video Instalacion Windows](https://drive.google.com/file/d/1vS0Ex5zZ-sMXT48S6oynN2BQ6BBfQ6dq/view?usp=sharing)
 
 Descargar los archivos, descomprirlos y abrir la carpeta donde se encuentran los archivos. Una vez en la carpeta reemplazar la ruta que figura en la barra de direcciones por "cmd" y presionar enter para ingresar a nuetra carpeta en la consola de Windows. 
 
@@ -144,7 +145,7 @@ Si queremos procesar los arhivos de otra carpeta o cambiar la ruta de salida pod
     python3 start.py --entrada carpeta_entrada --salida carpeta_salida
 
 ### Linux (Docker)  
-[Video Instalacion MacOs ](https://drive.google.com/file/d/1i-5vs2D24F_7rJSq0S-9aFOb5lKJHgJT/view?usp=sharing)
+[Video Linux Docker ](https://drive.google.com/file/d/1i-5vs2D24F_7rJSq0S-9aFOb5lKJHgJT/view?usp=sharing)
 
 Descargamos los archivos y los descomprimimos. Modificar el archivo ocr.py con la ruta de pytesseract para linux, como se mostro en instalacion para linux.
 El siguiente paso es abri una consola en la carpeta donde se encuentran los archivos descomprimidos y ejecutar el siguiente codigo para generar una imagen de docker con las librerias necesarias para ejecutar el codigo.
@@ -160,6 +161,9 @@ Una vez dentro del container podemos ejecutar el codigo para procesar las imagen
     python3 start.py --entrada carpeta_entrada --salida carpeta_salida
 
 ### Huggingface
+
+[Video HuggingFace](https://drive.google.com/file/d/1Tkg3zo258st9hDy6E7xOXAwbamgI3zP2/view?usp=sharing)
+
 En este entorno grafico podemos probar la segmentacion y las detecciones, sin realizar instalaciones. 
 
 [Hugginface](https://huggingface.co/spaces/matiasbonfanti/IA_por_la_Identidad)
@@ -171,4 +175,3 @@ En este entorno grafico podemos probar la segmentacion y las detecciones, sin re
 En este entorno podemos realizar pruebas con gpu. 
 
 [Colab](https://colab.research.google.com/drive/1yX7k2YXZ8ugW0bDXkFKs5xxDUK4rUs6C?usp=sharing)
-
