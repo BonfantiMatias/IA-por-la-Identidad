@@ -1,4 +1,4 @@
- IA por la Identidad
+# IA por la Identidad
 
 El desafío planteado por la la Fundacion Sadosky en colaboración con la Fundación Abuelas de Plaza de Mayo es el de crear un programa que logre interpretar imágenes de diarios, las mismas son recortes, fotos u escaneos de calidades muy diversas.
 Estas imágenes deben ser procesadas individualmente para generar un archivo JSON donde se transcriban su partes por separado (Título, Cuerpo, Bajada, Imagen, Epígrafe, Volanta)
